@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRANDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .main {
+            width: 100vw;
+            height: 100vh;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+
+
+    <body>
+        <div class="main">
+            <div class="first">
+                <div class="heading">Testomonials</div>
+                <p>What our customer say</p>
+            </div>
+            <div class="second">
+                <div class="second-first">
+                    <img src="8.png" alt="">
+                </div>
+                <div class="second-first">
+                    <ul>
+                       Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolor magma aliqua.Ut enim ad minim veniam,quiss nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                       
+                       Samantha Williams
+                       ui/ux Designer
+                    </ul>
+                </div>
+            </div>
+        </div>

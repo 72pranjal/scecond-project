@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .main {
+            width: 100vw;
+            height: 100vh;
+            background: rgb(0, 0, 0, 0.8) url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3be21dc9-ad7b-4635-a046-b50a806b1ecb;revision=0?component_id=23404739-0be8-47fc-bee7-4960685c36e9&api_key=CometServer1&access_token=1660110187_urn%3Aaaid%3Asc%3AUS%3A3be21dc9-ad7b-4635-a046-b50a806b1ecb%3Bpublic_e6e1da3998b2db45d8551dbf81b6ea2f0fd7232d");
+            background-size: 100vw;
+            background-blend-mode: multiply;
+            overflow-x: hidden;
+        }
+
+        .first {
+            display: grid;
+            place-items: center;
+            color: white;
+        }
+
+        .first .heading {
+            margin-top: 30px;
+            font-size: 45px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bolder;
+
+        }
+
+        .first .para {
+            margin-top: 15px;
+            font-size: 18px;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+
+        .second {
+            height: 65vh;
+            /* background-color: pink; */
+        }
+
+        .second input {
+            width: 40%;
+            height: 45px;
+            border-radius: 5px;
+            background: #41414A 0% 0% no-repeat padding-box;
+            color: white;
+            border: none;
+        }
+
+        .second-first {
+            margin-left: 170px;
+            margin-top: 40px;
+        }
+
+        .second-second {
+            margin-left: 170px;
+            margin-top: 30px;
+        }
+
+        .second-third {
+            width: 183%;
+            margin-left: 170px;
+            margin-top: 30px;
+        }
+
+        .second-third input {
+            height: 70px;
+        }
+
+
+        input::placeholder {
+            padding-left: 20px;
+            text-align: left;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            font-size: 18px;
+
+        }
+
+        #email,
+        #subject {
+            margin-left: 30px;
+        }
+
+        button {
+            height: 45px;
+            width: 130px;
+            border-radius: 10px;
+            opacity: 0.82;
+            cursor: pointer;
+            background: #e0a01f 0% 0% no-repeat padding-box;
+        }
+        .btn:hover{
+            background: #FDC24F 0% 0% no-repeat padding-box;
+        }
+
+        .btn {
+            margin-top: 45px;
+            margin-left: 600px;
+        }
+
+        .third {
+            background: #232331 0% 0% no-repeat padding-box;
+            color: white;
+            height: 60px;
+        }
+
+        .cright {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            padding-left: 65vw;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="first">
+            <div class="heading">Contact Us</div>
+            <div class="para">Feel like contacting us? Submit your queries here and we will get</div>
+        </div>
+        <div class="second">
+            <div class="second-first">
+                <input class="input" id="name" type="text" placeholder="Name">
+                <input class="input" id="email" type="email" placeholder="Email">
+            </div>
+            <div class="second-second">
+                <input class="input" id="phone" type="text" placeholder="Phone no.">
+                <input class="input" id="subject" type="text" placeholder="Subject">
+            </div>
+            <div class="second-third">
+                <input class="input" id="msg" type="text" placeholder="Message">
+            </div>
+            <div class="second-fourth">
+                <button class="btn" type="submit">Submit</button>
+            </div>
+        </div>
+        <div class="third">
+            <div class="cright">@ Copyright All Right Reserved Privacy Policy</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
